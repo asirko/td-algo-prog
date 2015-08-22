@@ -1,0 +1,8 @@
+
+# Executable files
+*.exe
+exe
+
+# sublime text files
+*.sublime-project
+*.sublime-workspace
