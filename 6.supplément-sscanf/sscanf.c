@@ -17,7 +17,8 @@ int main() {
     // sscanf peut extraire des information depuis une chaîne de caractère, ces arguments sont
     // 1 : la chaîne à lire
     // 2 : le format à interpréter
-    // 3+: l'ensemble des pointeur sur les variables servant de conteneur pour les valeurs extraites
+    // 3+: l'ensemble des pointeur sur les variables servant de conteneur pour les valeurs extraites 
+    //     (pointeur : pour faire simple : le nom de la variable précédé du '&')
 
     // Voici quelques exemple plus complexe pour mieux comprendre
     char * strDate = "14/09/2015";
