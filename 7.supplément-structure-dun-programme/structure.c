@@ -10,14 +10,14 @@
 // **************** Préprocesseurs ****************************
 // ************************************************************
 // Les préprocécesseurs sont générallement à placer en tête de fichier
-// il est mieu de déclarer les bibliothèques avant d'utiliser leurs fonctionnalités
+// il est mieux de déclarer les bibliothèques avant d'utiliser leurs fonctionnalités
 #include <stdio.h>
 
 
 // ************************************************************
 // *************** Structures ********************************
 // ************************************************************
-// Les structures sont des types qui peuvent être utiliser par le reste 
+// Les structures sont des types qui peuvent être utilisé par le reste 
 // du programme. Il faut donc les définir avant le reste.
 typedef struct {
     int x;
@@ -35,7 +35,7 @@ point somme(point p1, point p2);
 // *************** Fonctions **********************************
 // ************************************************************
 // Les fonctions permettent de découper le code en portions élémentaires 
-// plus isibles est donc maintenable.
+// plus lisibles est donc maintenable.
 point somme(point p1, point p2) {
     point pr;
     pr.x = p1.x + p2.x;
@@ -47,7 +47,7 @@ point somme(point p1, point p2) {
 // *************** Main ***************************************
 // ************************************************************
 // La fonction main est particulière : c'est le point d'entrée du programme.
-// Cette fonction doit être mis à une place facillement visible mais ne peut 
+// Cette fonction doit être mise à une place facillement visible mais ne peut 
 // pas être mise avant les prototypes. La place la plus visible est donc la 
 // toute fin du fichier
 
