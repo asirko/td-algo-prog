@@ -1,4 +1,4 @@
-// gcc -Wall sscanf.c -o exe
+// gcc -Wall -o exe sscanf.c
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-// gcc -Wall HelloWorld.c -o exe
+// gcc -Wall -o exe HelloWorld.c 
 
 #include <stdio.h>
 

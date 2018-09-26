@@ -1,4 +1,4 @@
-// gcc -Wall argc-argv.c -o exe
+// gcc -Wall -o exe argc-argv.c 
 
 #include <stdio.h>
 

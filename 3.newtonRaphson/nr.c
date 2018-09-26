@@ -1,4 +1,4 @@
-// gcc -Wall nr.c -o exe -lm
+// gcc -Wall -o exe nr.c -lm
 
 // Préprocesseur
 #include <stdio.h>

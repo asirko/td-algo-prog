@@ -1,4 +1,4 @@
-// gcc histogramme.c -Wall -o exe
+// gcc -Wall -o exe histogramme.c
 
 #include <stdio.h>
 #include <stdlib.h>

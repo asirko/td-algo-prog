@@ -1,4 +1,4 @@
-// gcc -Wall polynome.c -o exe -lm
+// gcc -Wall -o exe polynome.c -lm
 
 // Préprocesseur (ex: import de bibliothèque)
 #include <stdio.h>
@@ -11,6 +11,8 @@ double calculDiscriminant (double a, double b, double c);
 void gererCas (double a, double b, double c);
 
 // Fonctions
+
+// f(x) = ax^2 + bx + c (=> a != 0)
 void calculOrdre2Strict (double a, double b, double c) {
     double delta = calculDiscriminant(a, b, c);
 
@@ -23,6 +25,7 @@ void calculOrdre2Strict (double a, double b, double c) {
     }
 }
 
+// f(x) = ax + b (a != 0)
 void calculOrdre1Strict (double a, double b) {
     printf("Il y a une unique solution : %lf.\n", -b/a);
 }

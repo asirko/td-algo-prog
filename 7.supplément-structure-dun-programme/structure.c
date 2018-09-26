@@ -3,7 +3,7 @@
 // ************************************************************
 // Il est plus simple lorsque l'on travaille à plusieurs de placer 
 // la commande de compilation en tête de fichier
-// gcc structure.c -Wall -o exe
+// gcc -Wall -o exe structure.c
 
 
 // ************************************************************
